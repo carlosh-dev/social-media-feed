@@ -1,0 +1,33 @@
+
+:root {
+    --white: #ffff;
+    --primary-color: #9B51E0;
+    --secondary-color: #BB6BD9;
+    
+    --gray-100: #e1e1e6;
+    --gray-300: #c4c4cc;
+    --gray-400: #8d8d99;
+    --gray-700: #323238;
+    --gray-700: #29292e;
+    --gray-800: #202024;
+    --gray-900: #121214;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--gray-900);
+    color: var(--gray-300);
+    /* Suavização de fontes mais finas (apenas webkit) */
+    --webkit-font-smoothing: antialiased;
+}
+
+body, input, button, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
