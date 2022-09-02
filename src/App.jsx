@@ -16,16 +16,12 @@ function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          Teste
+          <Post />
+          <Post />
+          <Post />
         </main>
       </div>
     </div>
-
-
-
-
-
-
   )
 }
 
